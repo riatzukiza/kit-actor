@@ -1,6 +1,5 @@
 {"name":"kit-actor",
  "version":"0.0.0",
- "bin":{"kit-shell":"./bin/kit-shell"},
 
  "scripts":{"clean":"rm -r node_modules",
             "compile":"sibilant ./src/index.sibilant -o ./",
