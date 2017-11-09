@@ -154,3 +154,4 @@ var Actor = EventEmitter.define("Actor", {
    }
  });
 exports.Actor = Actor;
+exports.sendTo = sendTo;

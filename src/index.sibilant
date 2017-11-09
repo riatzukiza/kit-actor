@@ -44,3 +44,4 @@
   (def send (msg) (enque-task this.promise (.*send this msg))))
 
 (export Actor)
+(export send-to)
