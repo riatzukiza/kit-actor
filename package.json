@@ -6,8 +6,6 @@
             "test":"sibilant -x ./test.sibilant",
             "clean-compile":"sh ./scripts/clean-compile.sh"},
 
- "dependencies":{"kit":"git+ssh://riatzukiza@aaron.kettlelogic.space:1250/H/gits/kit",
-                 "kit-loader":"git+ssh://riatzukiza@aaron.kettlelogic.space:1250/H/gits/kit-loader",
-                 "kit-events":"git+ssh://riatzukiza@aaron.kettlelogic.space:1250/H/gits/kit-events",
-                 "kit-interface":"git+ssh://riatzukiza@aaron.kettlelogic.space:1250/H/gits/kit-interface"
-                }}
+ "dependencies":{"kit":"git@github.com:riatzukiza/kit.git",
+                 "kit-events":"git@github.com:riatzukiza/kit-events.git",
+                 "kit-interface":"git@github.com:riatzukiza/kit-interface.git"}}
