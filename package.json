@@ -10,8 +10,8 @@
     },
 
     "dependencies": {
-        "kit": "https://github.com/riatzukiza/kit.git",
-        "kit-events": "https://github.com/riatzukiza/kit-events.git",
-        "kit-interface": "https://github.com/riatzukiza/kit-interface.git"
+        "kit": "git+https://github.com/riatzukiza/kit.git",
+        "kit-events": "git+https://github.com/riatzukiza/kit-events.git",
+        "kit-interface": "git+https://github.com/riatzukiza/kit-interface.git"
     }
 }
