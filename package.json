@@ -1,11 +1,17 @@
-{"name":"kit-actor",
- "version":"0.0.1",
+{
+    "name": "kit-actor",
+    "version": "0.0.1",
 
- "scripts":{"clean":"rm -r node_modules",
-            "compile":"sibilant ./src/index.sibilant -o ./",
-            "test":"sibilant -x ./test.sibilant",
-            "clean-compile":"sh ./scripts/clean-compile.sh"},
+    "scripts": {
+        "clean": "rm -r node_modules",
+        "compile": "sibilant ./src/index.sibilant -o ./",
+        "test": "sibilant -x ./test.sibilant",
+        "clean-compile": "sh ./scripts/clean-compile.sh"
+    },
 
- "dependencies":{"kit":"git@github.com:riatzukiza/kit.git",
-                 "kit-events":"git@github.com:riatzukiza/kit-events.git",
-                 "kit-interface":"git@github.com:riatzukiza/kit-interface.git"}}
+    "dependencies": {
+        "kit": "https://github.com/riatzukiza/kit.git",
+        "kit-events": "https://github.com/riatzukiza/kit-events.git",
+        "kit-interface": "https://github.com/riatzukiza/kit-interface.git"
+    }
+}
